@@ -1,0 +1,24 @@
+# Corrigo::LinkUserAndCustomerGroup
+
+## Properties
+
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **id** | **Integer** |  | [optional] |
+| **perform_deletion** | **Boolean** |  | [optional] |
+| **user_id** | **Integer** |  | [optional] |
+| **customer_group_id** | **Integer** |  | [optional] |
+
+## Example
+
+```ruby
+require 'corrigo'
+
+instance = Corrigo::LinkUserAndCustomerGroup.new(
+  id: null,
+  perform_deletion: null,
+  user_id: null,
+  customer_group_id: null
+)
+```
+
